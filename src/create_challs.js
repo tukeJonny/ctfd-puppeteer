@@ -5,7 +5,7 @@ const loginUser = process.env.LOGIN_USER || ''
 const loginPassword = process.env.LOGIN_PASSWORD || '';
 
 function choose(choices) {
-    var idx = Math.floor(Math.random()*choices.length)
+    const idx = Math.floor(Math.random()*choices.length)
     return choices[idx]
 }
 
